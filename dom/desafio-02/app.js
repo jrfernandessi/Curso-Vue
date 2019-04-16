@@ -4,14 +4,11 @@ new Vue({
         valor: ''
     },
     methods: {
-        exibirAlerta(){
-            alert("exibit alerta")
+        exibirAlerta() {
+            alert('Estou alertando agora!')
         },
-        atribuirValor(event){
-            this.valor = event.target.value
-        },
-        exibirValor(event){
+        alterarValor(event) {
             this.valor = event.target.value
         }
-    },
+    }
 })

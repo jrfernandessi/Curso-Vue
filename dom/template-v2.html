@@ -1,19 +1,19 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 <div id="app">
-    <p>{{titulo}}</p>
-    <p>{{saudacao()}}</p>
+    <p>{{ titulo }}</p>
+    <p>{{ saudacao() }}</p>
 </div>
 
 <script>
     new Vue({
         el: '#app',
         data: {
-            titulo: 'Usando VueJs!'
+            titulo: 'Usando VueJS!'
         },
         methods: {
-            saudacao:function(){
-                return "Chamando metódo"
+            saudacao: function() {
+                return 'Boa semana!'
             }
         }
     })

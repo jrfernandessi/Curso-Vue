@@ -1,16 +1,16 @@
 new Vue({
-    el:'#desafio',
-    data:{
-        idade: 31,
-        nome: 'Junior',
-        imagem: 'https://cdn-images-1.medium.com/max/1600/1*wqYF-8Dmh7LhtLkKfERc3Q.png'
-    }, 
+    el: '#desafio',
+    data: {
+        nome: 'Ana Silva',
+        idade: 28,
+        imagem: 'http://files.cod3r.com.br/curso-vue/vue.jpg'
+    },
     methods: {
-        random(){
-            return Math.random()
+        idadeVezes3() {
+            return this.idade * 3
         },
-        triploIdade(){
-            return this.idade*3
-        }   
+        random() {
+            return Math.random()
+        }
     }
 })
