@@ -16,9 +16,9 @@
       <v-btn flat>Finalizar Dia</v-btn>
       <v-menu offset-y>
         <v-btn flat slot="activator">Salvar & Carregar</v-btn>
-        <v-lis-tile>
+        <v-list-tile>
           <v-list-tile-title>Salvar Dados</v-list-tile-title>
-        </v-lis-tile>
+        </v-list-tile>
         <v-list-tile>
           <v-list-tile-title>Carregar Dados</v-list-tile-title>
         </v-list-tile>
