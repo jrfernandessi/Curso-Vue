@@ -23,13 +23,20 @@
           <v-list-tile-title>Carregar Dados</v-list-tile-title>
         </v-list-tile>
       </v-menu>
+      <v-layout align-center>
+        <span class="text-uppercase grey--text text--darken-2">Saldo: {{ funds }}</span>
+      </v-layout>
     </v-toolbar-items>
   </v-toolbar>
 </template>
 
 <script>
 export default {
-    
+    computed: {
+      funds(){
+        return this.$store.getters.funds
+      }
+    },
 }
 </script>
 
