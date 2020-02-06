@@ -9,7 +9,7 @@
         </strong>
       </v-card-title>
     </v-card>
-    <v-car>
+    <v-card>
       <v-container fill-height>
         <v-text-field label="Quantidade" type="number" 
           v-model.number="quantity"
@@ -18,7 +18,7 @@
           :disabled="quantity<=0 ||!Number.isInteger(quantity) || insufficientQuantity"
           @click="sellStock">{{insufficientQuantity?'Insuficiente':'Vender'}}</v-btn>
       </v-container>
-    </v-car>
+    </v-card>
   </v-flex>
 </template>
 
